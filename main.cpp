@@ -9,16 +9,10 @@ int main()
     SetConsoleTitleA(RandomString(16).c_str());
     checkprivileges();
     system("cls");
-    printlogo();
     Sleep(1000);
     system("cls");
     SetConsoleTitleA(RandomString(16).c_str());
     std::cout << _xor_("\n    Initializing...") << "\n";
-    Sleep(1000);
-    system("cls");
-    SetConsoleTitleA(RandomString(16).c_str());
-    std::cout << _xor_("\n    Connecting...") << "\n";
-    Connect();
     Sleep(1000);
     system("cls");
     SetConsoleTitleA(RandomString(16).c_str());
