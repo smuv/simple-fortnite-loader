@@ -24,7 +24,7 @@ void injection()
 		}
 		else
 		{
-			printf("    [>] Fortnite Found!\n\n");
+			printf("    [>] Fortnite Found!\n\n"); // inject cheat
 		}
 		Sleep(300);  //slowed it down a bit 4u
 	}
