@@ -23,12 +23,12 @@ int main()
     switch (key_chosen) {
 
     case '1':
-        driver();
-        injection();
+        driver(); // open fortnite driver 
+        injection(); // wait for fortnite to start
         break;
     case '2':
-        driverr();
-        injection();
+        driverr(); // open fortnite driver 
+        injection(); // wait for fortnite to start
         break;
     }
 }
