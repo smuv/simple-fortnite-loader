@@ -9,26 +9,22 @@ int main()
     SetConsoleTitleA(RandomString(16).c_str());
     checkprivileges();
     system("cls");
-    Sleep(1000);
     system("cls");
-    SetConsoleTitleA(RandomString(16).c_str());
     std::cout << _xor_("\n    Initializing...") << "\n";
-    Sleep(1000);
     system("cls");
-    SetConsoleTitleA(RandomString(16).c_str());
     std::cout << _xor_("\n    [+] Press 1 to run 1909 Driver...") << "\n";
     std::cout << _xor_("\n    [+] Press 2 to run 20H2 Driver...") << "\n";
     int key_chosen = _getch();
 
-    switch (key_chosen) {
-
-    case '1':
-        driver(); // open & download fortnite driver 
-        injection(); // wait for fortnite to start
-        break;
-    case '2':
-        driverr(); // open & download fortnite driver 
-        injection(); // wait for fortnite to start
-        break;
+    if(key_chosen == '1')
+    {
+        driver();
     }
+    
+    else if(key_chosen == '2')
+    {
+        driverr();
+    }
+    
+    injection();
 }
